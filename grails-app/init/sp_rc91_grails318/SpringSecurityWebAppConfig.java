@@ -32,8 +32,6 @@ public class SpringSecurityWebAppConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        // Access to all paths is restricted by default.
-        // We want to restrict access to one path and leave all other paths open.
         http
             .apply(stormpath()).and()
             .authorizeRequests()

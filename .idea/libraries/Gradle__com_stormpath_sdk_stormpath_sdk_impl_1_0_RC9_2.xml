@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: com.stormpath.sdk:stormpath-sdk-impl:1.0.RC9.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/stormpath/sdk/stormpath-sdk-impl/1.0.RC9.2/stormpath-sdk-impl-1.0.RC9.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

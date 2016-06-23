@@ -4,6 +4,15 @@ stormpath:
         csrf:
             token:
                 enabled: false
+        login:
+            enabled: false
+        register:
+            enabled: false
+        error:
+            enabled: false
+    authorized:
+        group:
+            admin: 'https://api.stormpath.com/v1/groups/7Yj0zfoN7aH68M7IT1yTkv'
 ---
 hibernate:
     cache:

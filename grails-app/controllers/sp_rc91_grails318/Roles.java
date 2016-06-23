@@ -1,8 +1,16 @@
 package sp_rc91_grails318;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Roles {
-    public static final String ROLE_ADMIN = "https://api.stormpath.com/v1/groups/7Yj0zfoN7aH68M7IT1yTkv";
+    public final String ROLE_ADMIN;
 
-    public static final String ROLE_AUTHENTICATED = "ROLE_AUTHENTICATED";
+    @Autowired
+    public Roles(Environment env) {
+        this.ROLE_ADMIN = env.getProperty("stormpath.authorized.group.admin");
+    }
+
 }

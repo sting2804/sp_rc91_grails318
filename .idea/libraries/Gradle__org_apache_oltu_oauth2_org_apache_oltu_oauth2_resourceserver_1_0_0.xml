@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.oltu.oauth2:org.apache.oltu.oauth2.resourceserver:1.0.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/oltu/oauth2/org.apache.oltu.oauth2.resourceserver/1.0.0/org.apache.oltu.oauth2.resourceserver-1.0.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
