@@ -8,7 +8,7 @@ import org.springframework.security.access.prepost.PreAuthorize
 class HelloService {
 
 
-    @PreAuthorize("hasRole(@roles.ROLE_ADMIN)")
+    @PreAuthorize("hasRole(@roles.ROLE_NEW_USER)")
     public String sayHello(Account account) {
         return "Hello, " + account.getGivenName() +
                 ". You have the required permissions to access this restricted resource.";

@@ -7,10 +7,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class Roles {
     public final String ROLE_ADMIN;
+    public final String ROLE_NEW_USER;
 
     @Autowired
     public Roles(Environment env) {
         this.ROLE_ADMIN = env.getProperty("stormpath.authorized.group.admin");
+        this.ROLE_NEW_USER = env.getProperty("stormpath.authorized.group.roleNewUser");
     }
 
 }

@@ -8,11 +8,15 @@ stormpath:
             enabled: false
         register:
             enabled: false
-        error:
+        reset:
             enabled: false
+        forgot:
+            enabled: false
+
     authorized:
         group:
             admin: 'https://api.stormpath.com/v1/groups/7Yj0zfoN7aH68M7IT1yTkv'
+            roleNewUser: 'https://api.stormpath.com/v1/groups/2c9IY7LK3hh2KOI5Lif5PF'
 ---
 hibernate:
     cache:
