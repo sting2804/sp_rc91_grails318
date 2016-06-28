@@ -10,5 +10,8 @@ class UrlMappings {
         }
 
         "/"(controller: 'application', action:'index')
+        "403"(controller: "errors", action: "forbidden")
+        "404"(controller: "errors", action: "notFound")
+        "500"(controller: "errors", action: "serverError")
     }
 }
